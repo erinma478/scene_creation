@@ -5,7 +5,8 @@ This project analyzes scene saliences of still images extracted from infant head
   Image information:480 x 720 pixels, down-sampled at 5Hz
   Camera: Watec 90-degree diagonal field of view, recording at 30Hz and worn by the infant on a headband or hat with the camera lens set just over the eyes
 
-Saliences we analyzed were:
+Size and position coordinates were based in-lab coding done in MATLAB image labeller
+The following properties were measured in MATLAB:
 
 - visual size of object
 - object position
