@@ -1,0 +1,23 @@
+VariableName,Class,Definition
+subject,string,subject / dyad identifier
+rawImage,string,identifies corresponding raw images (full size)
+croppedImage,string,identifies corresponding cropped image based on object
+uniqueid,double,unique identifier for each target-image combination
+target_image,string,"corresponding target image / identity of object (e.g., horse1)"
+Who,string,whether scene was created by parent or infant
+type,string,whether object was placed or unplaced
+group,string,"parent-placed, infant-placed or unplaced"
+type2,double,"placed = 1, unplaced = 0"
+group2,double,"infant = 1, parent = 2, unplaced = 3"
+objCount,double,how many objects are in cropped image
+canny_all,double,amount of edges; canny-based value for ROI cropped image
+cprop,double,proportion of edges; canny-based for within bounding polygon / all of ROI cropped image
+lum_in,double,luminance contrast within bounding polygon
+centerx,double,x-axis centerpoint coordinate (from 0 to 480)
+centery,double,y-axis centerpoint coordinate (from 0 to 720)
+dist_centerx,double,distance between x centerpoint and image midline; abs(centerx-240)
+dist_centery,double,distance between y centerpoint and image midline; abs(centery-360)
+dist_center,double,distance from object centerpoint to image centerpoint
+size_deg,double,angular area in degrees
+sizelog,double,log10 transformation of size
+meanRT,double,mean reaction time based on target_image and rawImage
